@@ -52,18 +52,8 @@ public class Main {
                     System.out.println("Opção inválida!");
 
             }
-
-
-
-
         }while(opcao != 5);
 
-
-
-
-
-
         sc.close();
-
         }
     }

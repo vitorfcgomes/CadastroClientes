@@ -20,11 +20,16 @@ O sistema permite:
 
 ##  Estrutura do Projeto
 src/
+
 ├── application/
+
 │ └── Main.java
+
 ├── entities/
 │ └── Client.java
+
 └── services/
+
 └── ClientService.java
 
 ---
