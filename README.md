@@ -1,19 +1,3 @@
-# Cadastro de Clientes em Java
-
-Este projeto é um sistema simples de cadastro de clientes em Java, executado via console.  
-Ele foi desenvolvido com o objetivo de praticar lógica de programação, orientação a objetos e uso do Git/GitHub.
-
----
-
-## Funcionalidades
-
-O sistema permite:
-
-- Cadastrar novos clientes
-- Alterar dados de um cliente existente
-- Consultar dados de um cliente pelo email
-- Remover clientes
-- Interagir através de um menu no console
 
 # 📋 Cadastro de Clientes em Java
 
@@ -22,7 +6,7 @@ Foi desenvolvido com o objetivo de praticar **lógica de programação**, **orie
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 O sistema permite:
 
@@ -34,28 +18,7 @@ O sistema permite:
 
 ---
 
-## 🧱 Estrutura do Projeto
-
-# 📋 Cadastro de Clientes em Java
-
-Este projeto é um sistema simples de **cadastro de clientes em Java**, executado via console.  
-Foi desenvolvido com o objetivo de praticar **lógica de programação**, **orientação a objetos** e **Git/GitHub** 🚀
-
----
-
-## ✨ Funcionalidades
-
-O sistema permite:
-
-- ➕ Cadastrar novos clientes
-- ✏️ Alterar dados de um cliente existente
-- 🔍 Consultar dados de um cliente pelo email
-- 🗑️ Remover clientes
-- 📑 Interagir através de um menu no console
-
----
-
-## 🧱 Estrutura do Projeto
+##  Estrutura do Projeto
 src/
 ├── application/
 │ └── Main.java
@@ -66,9 +29,9 @@ src/
 
 ---
 
-## 🧩 Descrição das Classes
+##  Descrição das Classes
 
-### 🟢 Main.java
+###  Main.java
 - Classe principal do sistema
 - Exibe o menu no console
 - Lê a opção escolhida pelo usuário
@@ -76,7 +39,7 @@ src/
 
 ---
 
-### 👤 Client.java
+###  Client.java
 - Classe que representa o cliente
 - Atributos:
   - nome
@@ -86,7 +49,7 @@ src/
 
 ---
 
-### ⚙️ ClientService.java
+### ClientService.java
 - Contém a lógica de negócio do sistema
 - Responsável por:
   - Cadastrar clientes
@@ -96,7 +59,7 @@ src/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - ☕ Java
 - 🌱 Git
@@ -104,7 +67,7 @@ src/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## ▶ Como Executar o Projeto
 
 1. Clone o repositório
 2. Abra o projeto em uma IDE Java (IntelliJ, Eclipse ou VS Code)
@@ -113,7 +76,7 @@ src/
 
 ---
 
-## 🚀 Possíveis Melhorias Futuras
+## Possíveis Melhorias Futuras
 
 - 💾 Persistir os dados em arquivo ou banco de dados
 - ✅ Melhorar validações de entrada
@@ -121,6 +84,7 @@ src/
 - 🖥️ Criar uma interface gráfica
 
 ---
+
 
 ## 👨‍💻 Autor
 

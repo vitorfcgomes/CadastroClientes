@@ -11,9 +11,11 @@ public class ClientService {
 
         System.out.println("Email: ");
         String email = sc.nextLine();
+        System.out.println("--------------------------");
 
         System.out.println("Número: ");
         String number = sc.nextLine();
+        System.out.println("--------------------------");
 
         System.out.println("Cliente Cadastrado com Sucesso!");
         Client client = new Client(name, number, email);
