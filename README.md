@@ -12,7 +12,7 @@ O sistema permite:
 
 - ➕ Cadastrar novos clientes
 - ✏️ Alterar dados de um cliente existente
-- 🔍 Consultar dados de um cliente pelo email
+- 🔍 Consultar dados de um cliente pelo id
 - 🗑️ Remover clientes
 - 📑 Interagir através de um menu no console
 
