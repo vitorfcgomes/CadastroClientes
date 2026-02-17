@@ -17,18 +17,22 @@ public class ClientService {
         String number = sc.nextLine();
         System.out.println("--------------------------");
 
+        System.out.println("Id:");
+        int id = sc.nextInt();
+        System.out.println("-------------------");
+
         System.out.println("Cliente Cadastrado com Sucesso!");
-        Client client = new Client(name, number, email);
+        Client client = new Client(name, number, email, id);
         list.add(client);
 
 
     }
 
     public void alterarCliente(Scanner sc, List<Client> list) {
-        System.out.println("Informe o EMAIL do cliente: ");
-        String email = sc.nextLine();
+        System.out.println("Informe o Id do cliente: ");
+        Integer id = sc.nextInt();
 
-        Client client = buscarPorEmail(list, email);
+        Client client = buscarPorId(list, id);
 
         if (client == null) {
             System.out.println("Cliente não encontrado");
@@ -65,9 +69,9 @@ public class ClientService {
         }
         System.out.println("Dados atualizados com sucesso! ");
     }
-    private Client buscarPorEmail(List<Client> list, String email){
+    private Client buscarPorId(List<Client> list, Integer id){
         for(Client c : list){
-            if(c.getEmail().equals(email)){
+            if(c.getId().equals(id)){
                 return c;
             }
 
@@ -76,10 +80,10 @@ public class ClientService {
 
     }
     public void acessarClientes(Scanner sc, List<Client> list){
-        System.out.println("Digite o email do cliente: ");
-        String email = sc.nextLine();
+        System.out.println("Digite o id do cliente: ");
+        Integer id = sc.nextInt();
 
-        Client client = buscarPorEmail(list,email);
+        Client client = buscarPorId(list, id);
 
         if(client == null){
             System.out.println("Cliente não Encontrado! ");
@@ -95,8 +99,8 @@ public class ClientService {
     }
     public void removerCliente(Scanner sc, List<Client>list){
         System.out.println("Digite o email do client que deseja remover: ");
-        String email = sc.nextLine();
-        Client client = buscarPorEmail(list, email);
+        Integer id = sc.nextInt();
+        Client client = buscarPorId(list, id);
 
         if(client == null){
             System.out.println("Cliente não encontrado! ");
