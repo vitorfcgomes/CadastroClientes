@@ -80,17 +80,6 @@ src/
 4. Utilize o menu exibido no console 💻
 
 ---
-
-## Possíveis Melhorias Futuras
-
-- 💾 Persistir os dados em arquivo ou banco de dados
-- ✅ Melhorar validações de entrada
-- 🧪 Criar testes automatizados
-- 🖥️ Criar uma interface gráfica
-
----
-
-
 ## 👨‍💻 Autor
 
 **Vitor Ferreira**  
